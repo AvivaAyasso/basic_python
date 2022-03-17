@@ -123,6 +123,7 @@ if age >= 18:
 else:
     print("Your age dont fits the requirements")
 
+
 if age >= 18:
     print("ok")
 else:
@@ -147,3 +148,11 @@ name = input("enter a name")
 for i in name:
     print(i,end= " ")
         # name[i], end=" ")
+
+for i in range (1,100):
+    if i % 7 == 0:
+        print("boom")
+    elif '7' in str (i):
+        print("boom")
+    else:
+        print(i)
