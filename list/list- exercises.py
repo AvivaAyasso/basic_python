@@ -37,12 +37,12 @@ print(ls)
 ls.append(3)
 print(ls)
 
-2
+#2
 num = []
 for i in range(1, 10):
     num.append(i)
 print(num)
-3
+#3
 name = []
 for i in range(10):
     i = input("enter a name")
@@ -81,15 +81,12 @@ print(max)
 print(count)
 print(count1)
 
-5
+#5
 
 
 
 
-
-6
-
-7
+#6
 l1 = []
 l2 = []
 for i in range(6):
@@ -100,7 +97,7 @@ for i in l1:
         if i == j:
             print(i, "in bout")
 
-8
+#7
 shvil = []
 sum = 0
 for i in range(5):
