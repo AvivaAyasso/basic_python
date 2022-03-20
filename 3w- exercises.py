@@ -21,3 +21,11 @@ print(new)
 #6
 del new[3]
 print(new)
+
+#7
+num = int(input("Enter a number: "))
+num2 = num % 2
+if num2 > 0:
+    print("This is an odd number.")
+else:
+    print("This is an even number.")
