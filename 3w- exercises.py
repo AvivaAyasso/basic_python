@@ -29,3 +29,30 @@ if num2 > 0:
     print("This is an odd number.")
 else:
     print("This is an even number.")
+
+8
+from math import pi
+a = float(input("enter radius of circle"))
+print ("the area is" +" "+ str(a) + str(pi * a**2))
+
+9
+n = "54.236"
+print(float(n))
+print(int(float(n)))
+
+10
+for i in range(0, 10):
+    print('*', end="")
+print("\n")
+
+11
+num = int(input("Enter a number: "))
+sum_num = (num * (num + 1)) / 2
+print("Sum of the first", num ,"positive integers:", int(sum_num))
+
+12
+height = float(input("Enter height in Feet: "))
+weight = float(input("Enter weight in Kilogram: "))
+print("The body mass is: ", round(weight / (height * height), 2))
+
+
